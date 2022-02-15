@@ -2,7 +2,7 @@
 #include "queue.h"
 #include <stdio.h>
 
-#define FIR_FILTER_TAP_COUNT 81
+#define FIR_COEFFICIENT_COUNT 81
 #define IIR_A_COEFFICIENT_COUNT 10
 #define IIR_B_COEFFICIENT_COUNT 11
 
