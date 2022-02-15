@@ -79,6 +79,7 @@ void hitLedTimer_tick(){
 
 // Need to init things.
 void hitLedTimer_init(){
+    leds_init();
     currentState = init_st;
     LedTimer = 0;
 }
